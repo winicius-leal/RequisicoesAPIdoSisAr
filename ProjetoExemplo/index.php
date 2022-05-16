@@ -28,6 +28,11 @@ $request->setMethod(HTTP_Request2::METHOD_POST);
 $request->setHeader($header);
 $request->setBody($m);
 
+$request->setConfig(array(
+    'ssl_verify_peer'   => false,
+    'ssl_verify_host'   => false
+));
+
 $response = $request->send();
 
 echo $response->getBody();
