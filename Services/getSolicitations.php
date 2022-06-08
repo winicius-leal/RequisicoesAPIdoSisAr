@@ -4,16 +4,16 @@ require_once('vendor/autoload.php');
 use HTTP_Request2;
 
 $base_url = "https://crm-dev.lab.ca.inf.br/";
-$uri = "{$base_url}/webservice-ar/get-data-from-solicitations";
+$uri = "{$base_url}/webservice-ar/get-solicitations";
 $method = 'POST';
 $hmacVersion = 1;
 $clientId = 0;
 
-$m = json_encode(array("dataInicial" => "2022-05-01", "dataFinal" => "2022-06-01"));
+$m = json_encode(array("dataInicial" => "2022-06-03", "dataFinal" => "2022-06-08"));
 
 $ds = $method . $uri . $m;
 
-$key = "PAULO123";
+$key = "CHAVEAPIAR";
 $nonce = time();
 $hkey = $nonce . $key;
 $hmac = hash('sha256',hash('sha256', $hkey) . hash('sha256', $hkey . $ds));

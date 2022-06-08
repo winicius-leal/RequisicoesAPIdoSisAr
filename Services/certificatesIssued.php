@@ -11,7 +11,9 @@ $clientId = 0;
 
 $ds = $method . $uri;
 
-$key = "CHAVESECRETAAPI";
+//$key = "CHAVESECRETAAPI";
+$key = "efebNecus1";
+
 $nonce = time();
 $hkey = $nonce . $key;
 $hmac = hash('sha256',hash('sha256', $hkey) . hash('sha256', $hkey . $ds));
