@@ -1,6 +1,6 @@
 <?php
 
-require_once('vendor/autoload.php');
+require_once('../vendor/autoload.php');
 use HTTP_Request2;
 
 $base_url = "http://crm-dev.lab.ca.inf.br/";
