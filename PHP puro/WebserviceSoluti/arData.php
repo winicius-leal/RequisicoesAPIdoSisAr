@@ -3,36 +3,31 @@
 require_once('../vendor/autoload.php');
 use HTTP_Request2;
 
-$base_url = "http://crm-dev.lab.ca.inf.br/";
-$uri = "{$base_url}/webservice-api/consulta-situacao-solicitacao";
-$method = 'POST';
+$base_url = "https://crm-dev.lab.ca.inf.br/";
+$uri = "{$base_url}/webservice-soluti/ar-data";
+$method = 'GET';
 $hmacVersion = 1;
 $clientId = 0;
 
-$mensagem = array(
-    "dataInicial" => '2022-02-02',
-    "voucher" => array(
-        "00881ffb3c40"
-    )
-);
-
-$m = json_encode($mensagem);
+$m = json_encode(array("id" => "1"));
 
 $ds = $method . $uri . $m;
 
 $key = "CHAVESECRETAAPI";
+
 $nonce = time();
 $hkey = $nonce . $key;
-$hmac = hash('sha256', hash('sha256', $hkey) . hash('sha256', $hkey . $ds));
+$hmac = hash('sha256',hash('sha256', $hkey) . hash('sha256', $hkey . $ds));
 
-$headers = [
+$header = [
     'HMAC-Authentication' => $hmacVersion . ':' . $clientId . ':' . $nonce . ':' . $hmac
 ];
 
 $request = new HTTP_Request2();
 $request->setUrl($uri);
-$request->setMethod(HTTP_Request2::METHOD_POST);
-$request->setHeader($headers);
+$request->setMethod(HTTP_Request2::METHOD_GET);
+
+$request->setHeader($header);
 $request->setBody($m);
 
 $request->setConfig(array(
@@ -42,4 +37,5 @@ $request->setConfig(array(
 
 $response = $request->send();
 
-echo $response->getBody();
+echo "\n";
+echo $response->getBody() . $response->getStatus() . "\n\n";

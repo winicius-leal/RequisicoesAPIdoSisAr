@@ -4,12 +4,17 @@ require_once('../vendor/autoload.php');
 use HTTP_Request2;
 
 $base_url = "https://crm-dev.lab.ca.inf.br/";
-$uri = "{$base_url}/webservice-soluti/certificates-issued?last-sync=2021-07-10&last-sync-end=2021-07-30";
-$method = 'GET';
+$uri = "{$base_url}/webservice-soluti/nps-solicitation";
+$method = 'POST';
 $hmacVersion = 1;
 $clientId = 0;
 
-$ds = $method . $uri;
+$m = json_encode(array(
+    "last-sync" => "2021-07-10",
+    "last-sync-end" => "2022-07-30"
+));
+
+$ds = $method . $uri . $m;
 
 $key = "CHAVESECRETAAPI";
 
@@ -23,8 +28,10 @@ $header = [
 
 $request = new HTTP_Request2();
 $request->setUrl($uri);
-$request->setMethod(HTTP_Request2::METHOD_GET);
+$request->setMethod(HTTP_Request2::METHOD_POST);
 $request->setHeader($header);
+$request->setBody($m);
+
 
 $request->setConfig(array(
     'ssl_verify_peer'   => false,
