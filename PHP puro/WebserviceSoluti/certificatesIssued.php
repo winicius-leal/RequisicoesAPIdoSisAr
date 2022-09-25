@@ -4,7 +4,7 @@ require_once('../vendor/autoload.php');
 use HTTP_Request2;
 
 $base_url = "https://crm-dev.lab.ca.inf.br/";
-$uri = "{$base_url}/webservice-soluti/certificates-issued?last-sync=2021-07-10&last-sync-end=2021-07-30";
+$uri = "{$base_url}/webservice-soluti/certificates-issued?last-sync=2021-07-01&last-sync-end=2021-07-30";
 $method = 'GET';
 $hmacVersion = 1;
 $clientId = 0;

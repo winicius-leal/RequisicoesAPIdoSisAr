@@ -3,15 +3,16 @@
 require_once('../vendor/autoload.php');
 use HTTP_Request2;
 
-$base_url = "https://crm-dev.lab.ca.inf.br/";
+//$base_url = "https://crm-dev.lab.ca.inf.br/";
+$base_url = "https://arcondicionadohom.acsoluti.com.br/";
 $uri = "{$base_url}/webservice-soluti/nps-solicitation";
 $method = 'POST';
 $hmacVersion = 1;
 $clientId = 0;
 
 $m = json_encode(array(
-    "last-sync" => "2021-07-10",
-    "last-sync-end" => "2022-07-30"
+    "last-sync" => "2022-09-01",
+    "last-sync-end" => "2022-09-30"
 ));
 
 $ds = $method . $uri . $m;
