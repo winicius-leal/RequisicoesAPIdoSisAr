@@ -3,8 +3,8 @@
 require_once('../vendor/autoload.php');
 use HTTP_Request2;
 
-//$base_url = "https://crm-dev.lab.ca.inf.br/";
-$base_url = "https://arcondicionadohom.acsoluti.com.br/";
+$base_url = "https://crm-dev.lab.ca.inf.br/";
+//$base_url = "https://arcondicionadohom.acsoluti.com.br/";
 $uri = "{$base_url}/webservice-soluti/nps-solicitation";
 $method = 'POST';
 $hmacVersion = 1;
