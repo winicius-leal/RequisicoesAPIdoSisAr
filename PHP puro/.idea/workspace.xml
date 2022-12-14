@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2951201-de77-4d8b-815f-806a5f8edf43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/VideoconferenciaApi/gera-codigo-aceite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoconferenciaApi/importar-pedido.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoconferenciaApi/nova-solicitacao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testesAleatorios/termoResponsabilidade.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/pear/net_url2" />
+      <path value="$PROJECT_DIR$/vendor/pear/http_request2" />
+      <path value="$PROJECT_DIR$/vendor/pear/pear_exception" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2IXVARKLiqZ1joocfVrI0MEB1sq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/leal/Projetos/REQUISICOES-API-SISAR/RequisicoesAPIdoSisAr/PHP puro&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/VideoconferenciaApi" />
+      <recent name="$PROJECT_DIR$/testesAleatorios" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebserviceApi" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2951201-de77-4d8b-815f-806a5f8edf43" name="Changes" comment="" />
+      <created>1670327770573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670327770573</updated>
+      <workItem from="1670327771891" duration="1060000" />
+      <workItem from="1670419461831" duration="1834000" />
+      <workItem from="1670422177786" duration="599000" />
+      <workItem from="1670425726435" duration="25900000" />
+      <workItem from="1670536348633" duration="1558000" />
+      <workItem from="1670541304350" duration="5000" />
+      <workItem from="1670596430275" duration="1299000" />
+      <workItem from="1670846266049" duration="15579000" />
+      <workItem from="1670958855532" duration="3346000" />
+      <workItem from="1671044084332" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
