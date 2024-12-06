@@ -3,8 +3,8 @@
 $url = "https://gvshom.ca.inf.br/GVS/webservices/GVSServices.jws?wsdl";// hom
 // $url = "https://gvs.ca.inf.br/GVS/webservices/GVSServices.jws?wsdl"; // prod
 
-$usuario = 'ecommerce';
-$senha = 'f17f01d8da94fd01e7bcd459308a70ac';
+$usuario = 'Get in my Notion';
+$senha = 'Get in my Notion';
 
 // 10: PJA1
 // 9: PFA1
@@ -15,7 +15,7 @@ $senha = 'f17f01d8da94fd01e7bcd459308a70ac';
 // 695: PF A3 5 anos
 // 17701: SSL G4
 // 797 CERT-JUS CODIGO SEGURO A1
-$codProduto = '12992';
+$codProduto = '18923';
 $codVenda = '';
 $negociacao = '112020'; // 160222 SPro | 112020 Emissao
 $sequencia = '1';
